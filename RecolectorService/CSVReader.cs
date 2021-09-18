@@ -3,11 +3,10 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using ABC.Recolector.Models;
 using CsvHelper;
 using CsvHelper.Configuration;
 
-namespace ABC.Recolector.Reader
+namespace ABC.RecolectorService
 {
     public class CSVReader
     {

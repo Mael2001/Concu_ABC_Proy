@@ -5,11 +5,23 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABC.Sucursales", "ABC.Sucursales\ABC.Sucursales.csproj", "{14A0C439-4FB1-4A39-AE5E-19271C09BC34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC.Recolector", "ABC.Recolector\ABC.Recolector.csproj", "{01771AE3-EAA0-4742-AD99-1EAD295593D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABC.Recolector", "ABC.Recolector\ABC.Recolector.csproj", "{01771AE3-EAA0-4742-AD99-1EAD295593D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC.Validacion", "ABC.Validacion\ABC.Validacion.csproj", "{707366E9-9D34-48FE-8656-F2B9718EF27C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABC.Validacion", "ABC.Validacion\ABC.Validacion.csproj", "{707366E9-9D34-48FE-8656-F2B9718EF27C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC.Gateway", "ABC.Gateway\ABC.Gateway.csproj", "{C8F8F432-9EDB-4C83-A3BE-8BA2B1FC4E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABC.Gateway", "ABC.Gateway\ABC.Gateway.csproj", "{C8F8F432-9EDB-4C83-A3BE-8BA2B1FC4E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{E3004AC1-C19C-49A1-9832-2698E0DF25C5}"
+	ProjectSection(SolutionItems) = preProject
+		ABC.Sucursales\cars.csv = ABC.Sucursales\cars.csv
+		ABC.Sucursales\employees.csv = ABC.Sucursales\employees.csv
+		ABC.Recolector\sales.csv = ABC.Recolector\sales.csv
+		ABC.Sucursales\sucursales.csv = ABC.Sucursales\sucursales.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC.RecolectorService", "RecolectorService\ABC.RecolectorService.csproj", "{549F4669-ADA8-437A-9080-5B28E76B4224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC.ValidarService", "ABC.ValidarService\ABC.ValidarService.csproj", "{AB38FBDE-6B4C-4365-98EA-97BD4F88C713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +45,14 @@ Global
 		{C8F8F432-9EDB-4C83-A3BE-8BA2B1FC4E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F8F432-9EDB-4C83-A3BE-8BA2B1FC4E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F8F432-9EDB-4C83-A3BE-8BA2B1FC4E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549F4669-ADA8-437A-9080-5B28E76B4224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549F4669-ADA8-437A-9080-5B28E76B4224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549F4669-ADA8-437A-9080-5B28E76B4224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549F4669-ADA8-437A-9080-5B28E76B4224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB38FBDE-6B4C-4365-98EA-97BD4F88C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB38FBDE-6B4C-4365-98EA-97BD4F88C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB38FBDE-6B4C-4365-98EA-97BD4F88C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB38FBDE-6B4C-4365-98EA-97BD4F88C713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

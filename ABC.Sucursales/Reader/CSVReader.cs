@@ -15,7 +15,7 @@ namespace ABC.Sucursales
     {
         public async Task<List<SurcursalDto>> ProcessSucursal()
         {
-            using (var reader = new StreamReader("./sucursales.csv"))
+            using (var reader = new StreamReader("C:/ABCFiles/sucursales.csv"))
             {
                 using (var csvReader = new CsvReader(reader, new
                     CsvConfiguration(CultureInfo.InvariantCulture)
@@ -29,7 +29,7 @@ namespace ABC.Sucursales
         }
         public async Task<List<EmployeeDto>> ProcessEmployee()
         {
-            using (var reader = new StreamReader("./employees.csv"))
+            using (var reader = new StreamReader("C:/ABCFiles/employees.csv"))
             {
                 using (var csvReader = new CsvReader(reader, new
                     CsvConfiguration(CultureInfo.InvariantCulture)
@@ -43,7 +43,7 @@ namespace ABC.Sucursales
         }
         public async Task<List<CarsDto>> ProcessCar()
         {
-            using (var reader = new StreamReader("./cars.csv"))
+            using (var reader = new StreamReader("C:/ABCFiles/cars.csv"))
             {
                 using (var csvReader = new CsvReader(reader, new
                     CsvConfiguration(CultureInfo.InvariantCulture)

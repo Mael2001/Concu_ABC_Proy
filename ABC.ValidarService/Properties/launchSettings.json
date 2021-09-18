@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ABC.ValidarService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

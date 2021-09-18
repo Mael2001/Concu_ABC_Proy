@@ -25,9 +25,9 @@ namespace ABC.Validacion.Controllers
 
                 using (var httpClient = new HttpClient())
                 {
-                    var responseEmployee = await httpClient.GetAsync($"https://localhost:44374/employee/{tmp.username}");
-                    var responseCar = await httpClient.GetAsync($"https://localhost:44374/car/{tmp.car_id}");
-                    var responseSucursal = await httpClient.GetAsync($"https://localhost:44374/sucursal/{tmp.division_id}");
+                    var responseEmployee = await httpClient.GetAsync($"https://localhost:44346/employee/{tmp.username}");
+                    var responseCar = await httpClient.GetAsync($"https://localhost:44346/car/{tmp.car_id}");
+                    var responseSucursal = await httpClient.GetAsync($"https://localhost:44346/sucursal/{tmp.division_id}");
                     if (responseSucursal.IsSuccessStatusCode && responseCar.IsSuccessStatusCode && responseEmployee.IsSuccessStatusCode)
                     {
                         EmployeeDto employee = JsonConvert.DeserializeObject<EmployeeDto>(await responseEmployee.Content.ReadAsStringAsync());

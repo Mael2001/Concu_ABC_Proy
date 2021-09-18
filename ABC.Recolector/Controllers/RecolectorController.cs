@@ -34,8 +34,8 @@ namespace ABC.Recolector.Controllers
                 var factory = new ConnectionFactory
                 {
                     HostName = "localhost",
-                    Port = 42578,
-                    VirtualHost = "/validate"
+                    Port = 5672//Port = 42578,
+                    //VirtualHost = "/validate"
                 };
 
                 using (var connection = factory.CreateConnection())
